@@ -1,0 +1,147 @@
+body {
+	background: #DAF7F6;
+	color: #3B3B3B;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+header {
+	background: #FFFFFF;
+	text-align: center;
+}
+
+header img {
+	margin-right: 16px;
+}
+
+h1, h2, h3 {
+	color: #F16059;
+	font-family: 'Montserrat' , sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h1 {
+	display: inline-block;
+	font-size: 48px;
+	margin: 0;
+	padding: 40px 0;
+}
+
+h2 {
+	font-size: 24px;
+	line-height: 29px;
+	margin-top: 0;
+}
+
+h3 {
+	border-width: 1px 0;
+	border-style: solid;
+	border-color: #3B3B3B;
+	font-size: 12px;
+	padding: 6px;
+}
+
+main {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.card {
+	margin: 25px 0;
+	overflow: auto;
+}
+
+.columns {
+	overflow: auto;
+}
+
+.directions {
+	float: left;
+	width: 240px;
+}
+
+.directions ol {
+	line-height: 22px;
+	padding-left: 15px;
+}
+
+.image {
+	float: left;
+	height: 550px;
+	width: 500px;
+}
+
+.ingredients {
+	float: left;
+	margin-right: 15px;
+	width: 205px;
+}
+
+.ingredients ul {
+	line-height: 24px;
+	list-style-type: square;
+	padding-left: 15px;
+}
+
+.recipe {
+	background: #FFFFFF;
+	float: left;
+	height: 550px;
+	width: 500px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.time {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #3B3B3B;
+	margin-bottom: 20px;
+	overflow: auto;
+}
+
+.time div {
+	float: left;
+	padding-left: 6px;
+	text-transform: uppercase;
+	width: 33.3333%;
+	box-sizing: border-box;
+}
+
+.time .cook {
+	border-width: 0 1px;
+	border-style: solid;
+	border-color: #3B3B3B;
+}
+
+.time img {
+	margin-right: 5px;
+	height: auto;
+	width: 15px;
+	vertical-align: middle;
+}
+
+.time-details {
+	display: inline-block;
+}
+
+.time strong {
+	font-family: 'Montserrat' , sans-serif;
+}
+
+#cookies .image {
+	background-image: url('../img/gluten-free-sugar-cookies.jpg');
+	background-size: cover;
+}
+
+#pesto .image {
+	background-image: url(../img/nut-free-pesto.jpg);
+	background-size: cover;
+}
+
+#salad .image {
+	background-image: url(../img/watermelon-salad.jpg);
+	background-size: cover;
+}
